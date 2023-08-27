@@ -31,6 +31,10 @@ DB_DATABASE= NOME DE SUA ESCOLHA
 DB_USERNAME= SEU USERNAME DE LOGIN NO BANCO DE DADOS 
 DB_PASSWORD= SENHA DE LOGIN NO BANCO DE DADOS 
 ```
+Gere a chave de criptografia do programa
+```
+php artisan key:generate
+```
 Rode as migrações. Se houver um erro SQLSTATE HY000 1045 houve algum erro nas suas credenciais de banco de dados
 ```
 php artisan migrate
