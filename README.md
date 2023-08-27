@@ -7,23 +7,23 @@
 - Bootstrap
 - Ajax
 ## Instalação
-Abra o terminal e clone o repositório
+Abra o terminal e clone o repositório.
 ```
 git clone https://github.com/Lownzito/TesteUpLexis.git
 ```
-Ir para o diretório
+Ir para o diretório.
 ```
-cd testeUpLexis
+cd testeUpLexis.
 ```
-Fazer a instalação das dependencias. Se sua máquina não tiver composer instalado, siga o tutorial [https://getcomposer.org/download/] 
+Fazer a instalação das dependencias. Se sua máquina não tiver composer instalado, siga o tutorial https://getcomposer.org/download/ .
 ```
 composer install
 ```
-Crie o arquivo .env
+Crie o arquivo .env .
 ```
 cp env.example .env
 ```
-Crie uma "schema" com seu nome de preferência e altere as variáveis em .env
+Crie uma "schema" com seu nome de preferência e altere as variáveis em .env .
 ```
 DB_HOST= IP DO HOST DA SUA DB, O PADRÃO PARA DB LOCAIS É 127.0.0.1 
 DB_PORT= PORTA PADRÃO É 3306, PODE MUDAR DE ACORDO COM SEU AMBIENTE
