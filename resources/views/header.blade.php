@@ -9,7 +9,7 @@
           @auth
             <a class="nav-link" href="{{route('logout')}}">Logout</a>
             @if (Auth::user()->isAdmin)
-              <a class="nav-link" href="{{route('admin.page')}}">Admin page</a>
+              <a class="nav-link" href="{{route('admin.page')}}">Painel de admin</a>
             @endif
           @else
             <a class="nav-link" href="{{route('login')}}">Login</a>

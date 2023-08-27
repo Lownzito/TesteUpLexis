@@ -20,7 +20,6 @@
 @endauth
 
 <div class="container" id="searchList">
-    <h1>Os resultados da pesquisa podem demorar</h1>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
